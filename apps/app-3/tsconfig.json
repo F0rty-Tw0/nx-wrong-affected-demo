@@ -10,7 +10,10 @@
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./",
-    "paths": { "@app/*": ["src/app/*"] }
+    "paths": {
+      "@lib/library-c": ["../../libs/library-c/src/index.ts"],
+      "@app/*": ["src/app/*"]
+    }
   },
   "files": [],
   "include": [],
