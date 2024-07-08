@@ -1,1 +1,1 @@
-export * from './lib/library-a/dummy.service';
+export * from './lib/library-a/services/dummy.service';
