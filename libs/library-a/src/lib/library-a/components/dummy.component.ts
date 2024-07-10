@@ -1,5 +1,5 @@
 import { Component, inject } from '@angular/core';
-import { DummyService } from '@app/services/dummy.service';
+import { DummyService } from '@app/library-a/services/dummy.service';
 
 @Component({
   standalone: true,
