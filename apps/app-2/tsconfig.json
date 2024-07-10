@@ -11,7 +11,7 @@
     "noFallthroughCasesInSwitch": true,
     "baseUrl": "./",
     "paths": {
-      "@lib/library-b": ["../../libs/library-b/src/index.ts"],
+      "@lib/library-a": ["../../libs/library-a/src/index.ts"],
       "@app/*": ["src/app/*"]
     }
   },

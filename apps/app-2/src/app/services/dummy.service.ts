@@ -1,5 +1,5 @@
 import { inject, Injectable } from '@angular/core';
-import { DummyService as SharedDummyService } from '@lib/library-b';
+import { DummyService as SharedDummyService } from '@lib/library-a';
 
 @Injectable({ providedIn: 'root' })
 export class DummyService {
